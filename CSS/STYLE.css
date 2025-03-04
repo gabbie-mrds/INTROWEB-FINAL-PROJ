@@ -1,0 +1,727 @@
+/*DELOS SANTOS, GABRIELLE MAE ROSE S.*/
+
+body, header, main, footer, img, ul, h1, div, figure, aside, figcaption, video {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+
+/*STYLES FOR BODY AND IMAGES*/
+body {
+    background-color: rgba(251,255,215, 0.8);
+}
+
+img, video {
+    display: block;
+    max-width: 100%;
+}
+
+video{
+    margin: 1em auto 1em;
+}
+
+h2 {
+    text-align: center;
+}
+
+.round {
+    border-radius: 8px;
+}
+
+/*STYLE RULES FOR HEADER*/
+header {
+    top: 0;
+    background-color: rgba(251,255,215, 0.8);
+    height: 190px;
+}
+
+header img {
+    margin: 0 auto;
+}
+
+/*STYLE RULES FOR MOB-NAV*/
+
+.mob-nav a {
+	color: #000;
+	font-family: 'Inika', sans-serif;
+	text-align: center;
+	font-size: 1.75em;
+	text-decoration: none;
+	padding: 0.5em;
+	display: block;
+}
+
+.mob-nav a.menu-icon {
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+
+/*FOR MOBILE VIEWPORT AND HIDING TAB-DESK*/
+.mob {
+    display: block;
+}
+
+.tab-desk, #menu-links {
+    display: none;
+}
+
+/*MAIN*/
+
+main {
+    clear: left;
+    background-color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+    padding: 1em;
+}
+
+.define {
+    font-weight: bold;
+}
+
+#menu .define{
+    font-family: 'Inika', sans-serif;
+    font-size: 1.25em;
+}
+
+/*MAIN OF INDEX - MOBILE*/
+
+#index h2{
+    font-size: 1.75em;
+}
+
+main #index-about h1, #index-menu h2, #index-review h2 {
+    font-family: 'Inika', sans-serif;   
+}
+
+#index-about {
+    background-color: #BDCF68;
+    color: #fff;
+    padding: 1.5em 2em;
+    text-align: justify;
+}
+
+#index-about a{
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.more-btn {
+    text-align: left;
+    background-color: #fbffd7;
+    padding: 4%;
+    margin: 1%;
+    width: 20%;
+}
+
+#index-menu {
+    background-color: #92b9d4;
+    color: #fff;
+    padding: 1em 2em;
+}
+
+.menu-style {
+    text-align: center;
+}
+
+#index-menu a{
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#index-review {
+    padding: 0.5em;
+}
+
+.rev1, .rev2, .rev3 {
+    text-align: center;
+    background-color: rgba(251,255,215, 0.8);
+    padding: 3%;
+    margin: 0 auto;
+    width: 90%;
+}
+
+
+/*MAIN FOR ABOUT US - MOBILE*/
+#about h2 {
+    text-align: center;
+    font-family: 'Inika', sans-serif;
+}
+
+#abt-more {
+    background-color: #92b9d4;
+    padding: 1em 2em;
+    color: #fff;
+    text-align: justify;
+}
+
+#abt-start {
+    padding: 1em 2em;
+    text-align: justify;
+}
+
+#abt-coffee {
+    background-color: #BDCF68;
+    padding: 2em 2em;
+    color: #fff;
+    text-align: justify;
+}
+
+
+/*MAIN OF MENU - MOBILE*/
+#drinks h1 {
+    font-family: 'Inika', sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#drinks {
+    background-color: #BDCF68;
+    padding: 1em 1em;
+    color: #fff;
+}
+
+figure {
+	border: 4px solid #92b9d4;
+	margin: 3% auto;
+    border-style: dotted;
+}
+
+figcaption {
+	padding: 2%;
+	border-top: 4px solid #92b9d4;
+    text-align: center;
+}
+
+#desserts h1 {
+    font-family: 'Inika', sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#desserts {
+    padding: 2em 1em;
+    color: #000;
+}
+
+/*MAIN OF SCHEDULE - MOBILE*/
+
+#sched-table h1 {
+    font-family: 'Inika', sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+#sched-table{
+    background: linear-gradient(180deg, #92b9d4, #b7d0e2, #c9dcea);
+    padding: 2em;
+}
+
+
+/* MAIN OF CONTACT US - MOBILE*/
+
+#contactnum {
+    background-color: #BDCF68;
+    color: #fff;
+    text-align: center;
+    padding: 1em 2em;
+}
+
+#contactnum h2, main #contactnum p{
+    font-family: 'Inika', sans-serif;
+}
+
+#contactnum a{
+    text-decoration: none;
+    color: #000;
+    font-family: 'Poppins', sans-serif;   
+}
+
+#contactnum p{
+    color: #000;
+}
+
+.phone-btn {
+    text-align: center;
+    background-color: #fbffd7;
+    padding: 3%;
+    margin: 0 auto;
+    width: 90%;
+}
+
+main #contact-loc {
+    padding: 1em 2em;
+    text-align: center;
+}
+
+main #contact-loc h2{
+    font-family: 'Inika', sans-serif;
+}
+
+main #contact-loc .loc {
+    border: 4px solid #92b9d4;
+    width: 100%;
+    height: 100%;
+    border-style: dotted;
+    box-shadow: 0 8px 8px -4px lightblue
+}
+
+#contact-review{
+    background-color: #92b9d4;
+    color: #fff;
+    padding: 0.5em;
+}
+
+#contact-review h2{
+    font-family: 'Inika', sans-serif;
+    text-align: center;
+}
+
+form {
+	margin-top: 2%;
+	padding: 2%
+}
+
+fieldset legend {
+	font-weight: bold;
+	font-size: 1.25em;
+}
+
+fieldset, input, select, textarea {
+	margin-bottom: 2%;
+}
+
+label {
+	display: block;
+	padding-top: 0.5em;
+}
+
+.button {
+    background-color: #fbffd7;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+	display: block;
+	padding: 2% 3%;
+	font-size: 1em;
+}
+
+/*FOOTER - MOBILE*/
+footer p {
+    font-size: 0.75em;
+    text-align: center;
+    color: #000;
+    padding: 0.1em;
+    font-family: 'Poppins', sans-serif;
+}
+
+footer p a {
+    color: #000;
+    text-decoration: none;
+}
+
+.social{
+	float: right;
+	width: 16em;
+	padding: 1%;
+}
+
+.social img{
+	display: inline-block;
+	padding: 0.5em;
+}
+
+
+/*==============================================================*/
+/*TABLET VIEWPORT*/
+@media screen and (min-width: 630px), print {
+    
+    .mob, .mob-nav, .desk {
+        display: none;
+    }
+
+    .tab-desk, .tab{
+        display: block;
+    }
+
+    /*STYLE RULES OF HEADER FOR TABLET*/
+    header {
+        position: static;
+        padding-bottom: 1.5em;
+    }
+
+    nav li {
+        display: inline-block;
+        font-size: 1.5em;
+        font-family: 'Inika', sans-serif;
+    }
+
+    nav li a{
+        padding: 0.5em;
+        display: block;
+        color: #000;
+        text-decoration: none;
+    }
+
+    nav {
+        padding: 1%;
+        margin-bottom: 1%;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        text-align: center;
+    }
+
+    /*MAIN OF INDEX - FOR TAB-DESK*/
+
+    #index-menu h1, #index-review h1{
+        text-align: center;
+        font-family: 'Inika', sans-serif;
+    }
+    
+    #index-about {
+        padding: 2em;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 10px;
+        align-items: center;
+    }
+
+    .abt-text {
+        text-align: center;
+    }
+    
+    .more-btn {
+        padding: 1.25%;
+        margin: 0 auto;
+        width: 10%;
+    }
+
+    #index-menu {
+        padding: 2em 1em;
+    }
+
+    #index-menu h1{
+        font-size: 1.75em;
+    }
+
+    #menu-fig{
+        display: grid;
+		grid-template-columns: auto auto;
+		grid-gap: 10px;
+        align-items: center;
+    }
+
+    .menu-btn {
+        text-align: center;
+        background-color: #fbffd7;
+        padding: 1%;
+        margin: 0 auto;
+        width: 10%;
+    }
+
+    main #index-review {
+        padding: 2em;
+    }
+
+    .grid {
+        display: flex;
+        grid-template-columns: auto auto auto;
+        grid-gap: 10px;
+        align-items: center;
+    }
+
+    /*ANIMATION FOR INDEX OF TAB-DESK*/
+    @-webkit-keyframes text-animation {
+		0% {font-size: 1em;}
+		50% {font-size: 2em;}
+		100% {font-size: 1.35;}
+	}
+
+	@keyframes text-animation {
+		0% {font-size: 1em;}
+		50% {font-size: 2em;}
+		100% {font-size: 1.35em;}	
+	}
+
+	#index h1 {
+		-webkit-animation-name: text-animation;
+		animation-name: text-animation;
+		-webkit-animation-delay: 3s;
+		animation-delay: 3s;
+		-webkit-animation-duration: 5s;
+		animation-duration:  5s;
+	}
+
+
+    /*MAIN OF ABOUT US - TAB-DESK*/
+
+    #about h2 {
+        font-size: 1.75em;
+    }
+
+    #abt-more aside {
+		grid-column: 1 / span 2;
+	}
+
+    #abt-more dt{
+        font-weight: bold;
+    }
+
+    #abt-start {
+        padding: 2em;
+    }
+
+    #abt-coffee{
+        padding: 1em 2em;
+    }
+
+    #abt-coffee a{
+        color: #fff;
+    }
+
+    /*MAIN FOR MENU - TAB-DESK*/
+
+    #drinks aside, #desserts aside {
+		grid-column: 1 / span 2;
+        font-size: 1.5em;
+	}
+
+    #drinks, #desserts {
+        padding: 2em;
+		display: grid;
+		grid-template-columns: auto auto;
+		grid-gap: 15px;
+        align-items: center;
+	}
+
+    /*MAIN OF SCHEDULE - TAB-DESK*/
+
+    #sched-table h1 {
+        font-size: 2em;
+        font-family: 'Inika', sans-serif;
+        color: #fff;
+        text-align: center;
+    }
+
+    caption{
+        background-color: rgba(251,255,215, 0.8);
+        font-size: 1.25em;
+        font-weight: bold;
+        font-family: 'Inika', sans-serif;
+        padding: 1em;
+    }
+    #sched-table{
+        padding: 2em 1em;
+    }
+
+    table {
+		border: 1px solid #fff;
+		border-collapse: collapse;
+		margin: 0 auto;
+		width: 700px;  
+	}
+
+	th, td {
+        padding: 0.75em 1em;
+		background-color: #BDCF68;
+        border: 1px solid #fff;
+		color: #fff;
+		font-size: 1.15em;
+        text-align: center;
+	}
+
+    /*MAIN OF CONTACT US - TAB-DESK*/
+    #contactnum a{
+        text-decoration: none;
+        color: #fff;
+        font-family: 'Poppins', sans-serif;   
+    }
+    
+    #contactnum p{
+        color: #fff;
+        font-size: 1.25em;
+    }
+
+    main #contact-loc .loc {
+        border: 4px solid #92b9d4;
+        width: 25em;
+        height: 25em;
+        border-style: dotted;
+        box-shadow: 0 8px 8px -4px lightblue
+    }
+
+    form {
+		width: 80%;
+		margin: 0 auto;
+	}
+
+    /*FOOTER - TAB-DESK*/
+    .copy{
+		float: left;
+		width: 65%;
+	}
+
+	.social{
+		float: right;
+		width: 25%;
+	}
+    
+}
+
+/*==============================================================*/
+/*DESKTOP VIEWPORT*/
+@media screen and (min-width: 1015px){
+
+    .mob, .mob-nav, .tab {
+        display: none;
+    }
+
+    .tab-desk, .desk{
+        display: block;
+    }
+
+    /*HEADER - DESKTOP*/
+    header {
+        float: left;
+        width: 25%;
+        padding-bottom: 1.25em;
+    }
+
+    /*NAV AREA - DESKTOP*/
+
+    nav {
+        float: right;
+        width: 70%;
+        margin: 4em 1em 0 0;
+    }
+
+    nav ul{
+        text-align: right;
+    }
+
+    nav li {
+        border: none;
+    }
+
+    nav li a{
+        padding: 0.5em 1em;
+    }
+
+    nav li a:hover {
+        color: #92b9d4;
+        background-color: rgba(251,255,215, 0.8);
+    }
+
+
+    /*MAIN OF HOME - DESKTOP*/
+
+    #index h1{
+        font-size: 2em;
+    }
+
+    main #index-about {
+        padding: 1.5em 4em;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 25px;
+        align-items: center;
+    }
+        
+
+	/*MAIN OF ABOUT US - DESKTOP*/
+
+    #about h2, #about h3{
+        font-size: 2em;
+    }
+
+    #abt-more {
+        background-color: #92b9d4;
+        padding: 2em;
+        color: #fff;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 30px;
+        align-items: center;
+    }
+
+    #abt-start {
+        padding: 2.5em;
+    }
+ 
+    #text-coffee{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 30px;
+        align-items: center;
+        padding: 2em;
+    }
+
+
+    /*MAIN OF MENU - DESKTOP*/
+
+    #drinks aside {
+		grid-column: 1 / span 3;
+        font-size: 1.5em;
+	}
+
+    #drinks {
+        padding: 2em 1em;
+		display: grid;
+		grid-template-columns: auto auto auto;
+		grid-gap: 30px;
+        align-items: center;
+	}
+
+    /*MAIN OF SCHEDULE - DESKTOP*/
+
+    #sched-table{
+        background-color: #92b9d4;
+        padding: 1.5em 2em;
+    }
+
+    table {
+		width: 790px;
+    }
+
+    /*MAIN OF CONTACT - DESKTOP*/
+
+    form {
+        width: auto;
+        padding: 2em 1em;
+		display: grid;
+		grid-template-columns: auto auto auto;
+		grid-gap: 30px;
+        align-items: center;
+	}
+
+    fieldset{
+        height: 20em;
+    }
+    aside.sub-res{
+        grid-column: 1 / span 3;
+        display: inline-block;
+    }
+
+    .button{
+        width: 10%;
+        height: 5%;
+        padding: 0.5em;
+    }
+}
+
+/*=============================================================*/
+/* PRINT VIEWPORT */
+@media print{
+	body {
+		background-color: #fff;
+		color: #000;
+	}
+}

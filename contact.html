@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<!--
+        Name: Delos Santos, Gabrielle Mae Rose S.
+        Section: WD-202
+        Name of the Website: Greens n Beans Cafe: CONTACT
+        Beginning of making the website: Oct 23, 2023
+        Target day of finishing it: Nov 16, 2023
+-->
+<html lang = "en">
+<head>
+    <title>Contact Us | Greens n Beans</title>
+    <meta charset = "utf-8">
+    <link rel = "stylesheet" href = "CSS/styles.mini.css" type = "text/css">
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+    <meta name ="description" content = "Greens n Beans is located in La Union and if you are around the area they accept delivery.">
+    <link href="https://fonts.googleapis.com/css2?family=Inika&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" sizes="40x40" href="images/icon-40.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-icon.png">
+    <link rel="icon" sizes="192x192" href="images/icon-192.png">
+
+</head>
+
+<body>
+    <div id = "contact">
+
+         <!-- Nav for Mobile Viewport-->
+		<nav class = "mob-nav">
+			<div id = "menu-links">
+				<a href = "index.html">HOME</a>
+                <a href = "about.html">ABOUT US</a>
+                <a href = "menu.html">MENU</a>
+                <a href = "schedule.html">SCHEDULE</a>
+                <a href = "contact.html">CONTACT US</a>
+			</div>
+			<a class = "menu-icon" onclick = "hamburger()">
+				<div>&#9776;</div>
+			</a>
+		</nav>
+
+        <header id = "gnb-logo">
+            <a href = "index.html"> <img src = "images/gnb-logo.png" alt = "GREENS-N-BEANS-LOGO"></a>
+        </header>
+    
+        <nav class = "tab-desk">
+            <ul>
+                <li><a href = "index.html">HOME</a></li>
+                <li><a href = "about.html">ABOUT US</a></li>
+                <li><a href = "menu.html">MENU</a></li>
+                <li><a href = "schedule.html">SCHEDULE</a></li>
+                <li><a href = "contact.html">CONTACT US</a></li>
+            </ul>
+        </nav>
+    
+        <!--THE MAIN CONTENTS OF THE WEBPAGE-->
+        <main>
+                <div id = "contactnum">
+                    <section class = "tab-desk drinks">
+                        <h2>Do you want to order or contact us?</h2>
+                        <h3>You may contact us through:</h3>
+                        <p>Our Phone No: <a href = "tel:0999-567-9354">0999-567-9354</a><p>
+                        <p>Our Telephone No: <a href = "tel:072-5456">072-5456</a></p>
+                        <p>You may also email us: <a href = "mailto:greensnbeanscafe@greensnbeans.com">greensnbeanscafe@gnb.com</a></p>
+                    </section>
+
+                    <section class = "mob">
+                        <h2>Do you want to order or contact us?</h2>
+                        <p class = "phone-btn">Call us: <a href = "tel:0999-567-9354">0999-567-9354</a></p>
+                    </section>
+                
+
+
+                </div>
+
+                <div id = "contact-loc">
+                    <h2>OUR LOCATION</h2>
+                    <p>You may visit us at: 134 Beachfront, MacArthur Highway,, <br>Brgy. Urbiztondo, San Juan, 2514 La Union</p>
+
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d15288.769474691733!2d120.31818649630804!3d16.667254401937562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sBeachfront%2C%20MacArthur%20Highway%2C%2C%20Brgy.%20Urbiztondo%2C%20San%20Juan%2C%202514%20La%20Union!5e0!3m2!1sen!2sph!4v1698389828563!5m2!1sen!2sph" width="600" height="450" class = "loc"></iframe>
+                </div>
+
+                <div id = "contact-review">
+                    <h2>Review our products and services</h2>
+                    
+                    <form>
+                        <fieldset>
+                            <legend>Customer's Details</legend>
+                            <label for = "email">Email:</label>
+                            <input type = "text" id = "email" name = "email" placeholder = "Your Email" required>
+
+                            <label for = "name">Name:</label>
+                            <input type = "text" id = "name" name = "name" placeholder = "Your Name" required>
+
+
+                        </fieldset>
+
+                        <fieldset>
+                            <legend>Rate us:</legend>
+                            <label for = "coffee">Rate our Coffee:</label>
+                            <select name = "coffee" id = "coffee">
+                                <option value = "five">5</option>
+                                <option value = "four">4</option>
+                                <option value = "three">3</option>
+                                <option value = "two">2</option>
+                                <option value = "one">1</option>
+                            </select>
+
+                            <label for = "pastries">Rate our Pastries:</label>
+                            <select name = "pastries" id = "pastries">
+                                <option value = "five">5</option>
+                                <option value = "four">4</option>
+                                <option value = "three">3</option>
+                                <option value = "two">2</option>
+                                <option value = "one">1</option>
+                            </select>
+
+                            <label for = "place">Rate the place:</label>
+                            <select name = "place" id = "place">
+                                <option value = "five">5</option>
+                                <option value = "four">4</option>
+                                <option value = "three">3</option>
+                                <option value = "two">2</option>
+                                <option value = "one">1</option>
+                            </select>
+
+
+                            <label for = "band">Rate our live band music:</label>
+                            <select name = "band" id = "band">
+                                <option value = "five">5</option>
+                                <option value = "four">4</option>
+                                <option value = "three">3</option>
+                                <option value = "two">2</option>
+                                <option value = "one">1</option>
+                            </select>
+
+                            <label for = "staffs">Rate our staffs:</label>
+                            <select name = "staffs" id = "staffs">
+                                <option value = "five">5</option>
+                                <option value = "four">4</option>
+                                <option value = "three">3</option>
+                                <option value = "two">2</option>
+                                <option value = "one">1</option>
+                            </select>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend>Comments</legend>
+
+                            <textarea id = "comments" name = "Comments" rows = "8" cols = "38"></textarea>
+                        </fieldset>
+
+                        <aside class = "sub-res">
+                            <input type = "submit" id = "submit" value = "SUBMIT" class = "button">	
+                            <br>
+                            <input type = "reset" id = "reset" value = "RESET" class = "button">	
+                        </aside>
+
+                        
+                    </form>
+                    
+                </div>
+        </main>
+    
+        <footer>
+            <div class = "copy">
+                <p>&copy; Copyright 2023. All rights reserved. Created by Gabrielle Mae Rose S. Delos Santos</p>
+                <p><a href = "mailto:greensnbeanscafe@gnb.com">greensnbeanscafe@gnb.com</a></p>
+            </div>
+
+            <div class = "social">
+                <a href = "https://www.facebook.com/gabmrds" target = "_blank"><img src = "images/fb-logo.png" alt = "black Facebook Logo"></a>
+                <a href = "https://www.instagram.com/gab_mrds/" target = "_blank"><img src = "images/ig-logo.png" alt = "black Instagram Logo"></a>
+            </div>
+        </footer>
+
+    </div>
+    <script src = "scripts/script.js"></script>
+</body>
+</html>

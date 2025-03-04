@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<!--
+        Name: Delos Santos, Gabrielle Mae Rose S.
+        Section: WD-202
+        Name of the Website: Greens n Beans Cafe: MENU
+        Beginning of making the website: Oct 23, 2023
+        Target day of finishing it: Nov 16, 2023
+-->
+<html lang = "en">
+<head>
+    <title>Menu | Greens n Beans</title>
+    <meta charset = "utf-8">
+    <link rel = "stylesheet" href = "CSS/styles.mini.css" type = "text/css">
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+    <meta name ="description" content = "A selection of coffee and non-coffee drinks, as well as desserts, are available at Greens n Beans.">
+    <link href="https://fonts.googleapis.com/css2?family=Inika&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" sizes="40x40" href="images/icon-40.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-icon.png">
+    <link rel="icon" sizes="192x192" href="images/icon-192.png">
+
+</head>
+
+<body>
+    <div id = "menu">
+
+         <!-- Nav for Mobile Viewport-->
+		<nav class = "mob-nav">
+			<div id = "menu-links">
+				<a href = "index.html">HOME</a>
+                <a href = "about.html">ABOUT US</a>
+                <a href = "menu.html">MENU</a>
+                <a href = "schedule.html">SCHEDULE</a>
+                <a href = "contact.html">CONTACT US</a>
+			</div>
+			<a class = "menu-icon" onclick = "hamburger()">
+				<div>&#9776;</div>
+			</a>
+		</nav>
+
+        <header id = "gnb-logo">
+            <a href = "index.html"> <img src = "images/gnb-logo.png" alt = "GREENS-N-BEANS-LOGO"></a>
+        </header>
+    
+        <nav class = "tab-desk">
+            <ul>
+                <li><a href = "index.html">HOME</a></li>
+                <li><a href = "about.html">ABOUT US</a></li>
+                <li><a href = "menu.html">MENU</a></li>
+                <li><a href = "schedule.html">SCHEDULE</a></li>
+                <li><a href = "contact.html">CONTACT US</a></li>
+            </ul>
+        </nav>
+
+        <div id = "img-header">
+            <img src = "images/coffee-shop.png" alt = "inside of the coffee shop" class = "tab-desk">
+        </div>
+    
+        <!--THE MAIN CONTENTS OF THE WEBPAGE-->
+        <main>
+            <div id = "drinks">
+                <aside>
+                    <h1>DRINKS</h1>
+                </aside>
+            
+                <figure> 
+                    <img src = "images/coconut-latte.png" alt = "Coconut Latte">
+                    <figcaption><span class = "define">Coconut Latte</span> <br> Php 190 (Iced/Hot)</figcaption>
+                </figure>
+
+                <figure> 
+                    <img src = "images/caramel-macch.png" alt = "Caramel Macchiato">
+                    <figcaption><span class = "define">Caramel Macchiato</span> <br> Php 180 (Iced/Hot)</figcaption>
+                </figure>
+
+                <figure> 
+                    <img src = "images/cold-brew.png" alt = "Cold Brew">
+                    <figcaption><span class = "define">Cold Brew</span> <br> Php 170 (Iced)</figcaption>
+                </figure>
+
+                <figure> 
+                    <img src = "images/spanish-latte.png" alt = "Spanish Latte">
+                    <figcaption><span class = "define">Spanish Latte</span> <br> Php 180 (Iced/Hot)</figcaption>
+                </figure>
+
+                <figure> 
+                    <img src = "images/matcha-ube.png" alt = "Matcha Ube">
+                    <figcaption><span class = "define">Matcha Ube</span> <br> Php 190 (Iced)</figcaption>
+                </figure>
+
+                <figure> 
+                    <img src = "images/peach-tea.png" alt = "Peach Tea">
+                    <figcaption><span class = "define">Peach Tea</span> <br> Php 150 (Iced)</figcaption>
+                </figure>
+
+            </div>
+
+            <div id = "desserts">
+
+                <aside>
+                    <h1>DESSERTS</h1>
+                </aside>
+
+                <figure> 
+                    <img src = "images/scones.png" alt = "Scones">
+                    <figcaption><span class = "define">Scones</span> <br> Php 110</figcaption>
+                </figure>
+
+                <figure> 
+                    <img src = "images/banana-bread.png" alt = "Banana Bread">
+                    <figcaption><span class = "define">Banana Bread w/ Walnuts</span> <br> Php 95</figcaption>
+                </figure>
+
+                <figure> 
+                    <img src = "images/brownies.png" alt = "Brownies">
+                    <figcaption><span class = "define">Brownies</span> <br> Php 95</figcaption>
+                </figure>
+
+                <figure> 
+                    <img src = "images/tiramisu.png" alt = "Tiramisu">
+                    <figcaption><span class = "define">Tiramisu</span> <br> Php 115</figcaption>
+                </figure>
+            </div>
+                
+        </main>
+    
+        <footer>
+            <div class = "copy">
+                <p>&copy; Copyright 2023. All rights reserved. Created by Gabrielle Mae Rose S. Delos Santos</p>
+                <p><a href = "mailto:greensnbeanscafe@gnb.com">greensnbeanscafe@gnb.com</a></p>
+            </div>
+
+            <div class = "social">
+                <a href = "https://www.facebook.com/gabmrds" target = "_blank"><img src = "images/fb-logo.png" alt = "black Facebook Logo"></a>
+                <a href = "https://www.instagram.com/gab_mrds/" target = "_blank"><img src = "images/ig-logo.png" alt = "black Instagram Logo"></a>
+            </div>
+        </footer>
+
+    </div>
+    <script src = "scripts/script.js"></script>
+</body>
+</html>
